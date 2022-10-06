@@ -1,0 +1,51 @@
+
+.navbar{
+
+    background-color: dodgerblue;
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.navbar a{
+
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dropdown-container{
+
+    display: inline;
+    position: relative;
+}
+
+.dropdown-container:hover .dropdown-content{
+
+    display: block;
+
+
+}
+
+.dropdown-content{
+
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: dodgerblue;
+    text-align: left;
+    min-width: 100px;
+    display: none;
+}
+
+
+.dropdown-content a{
+
+    display: block;
+}
+
+.dropdown-content a:hover{
+
+    background-color: black;
+}
